@@ -7,10 +7,10 @@ int main(void)
 {
 	char alpha;
 
-	for (alpha = 'a'; alpha <= 'z')
+	for (alpha = 'a'; alpha <= 'z';)
 		if (alpha != 'e' && alpha != 'q')
 		putchar(alpha);
 	alpha++;
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
